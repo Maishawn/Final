@@ -1,0 +1,20 @@
+h1{
+    color :#131f9a ;
+    font - family: verdana;
+  }
+  p{
+    background : #2fc7cc;
+  }
+  figure { border : 1px solid blue;
+  }
+  figure img{
+    width : 50%;
+    height: auto;
+  }
+  p img{
+    float : left;
+    max-width : 60%;
+    margin-left: 20px;
+    margin-button : 32px;
+    
+    

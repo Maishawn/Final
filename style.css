@@ -2,6 +2,19 @@ h1{
     color :#131f9a ;
     font-family: Arial;
   }
+  h1#site-title{
+    font-size:54px;
+    letter-spacing:-3px;
+    margin-top:0;
+    margin-bottom: .125em;
+    text-align:center;
+}
+h1#article-title{
+  font-size:48px;
+
+}
+
+  }
   p{
     background : #2fc7cc;
   }

@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +11,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header Styles */
 header {
     background-color: #333;
     color: #fff;
@@ -36,7 +33,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Section Styles */
 section {
     margin: 20px 0;
 }
@@ -45,18 +41,18 @@ section h2 {
     color: #333;
 }
 
-#location img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-}
-
-/* Footer Styles */
 #site-footer {
     text-align: center;
     margin-top: 40px;
     padding: 10px;
     background-color: #333;
     color: #fff;
+}
+#location img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adds a slight border-radius for styling */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    display: block;
+    margin: 10px auto; /* Centers the image horizontally */
 }

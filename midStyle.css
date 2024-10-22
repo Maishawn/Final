@@ -51,8 +51,16 @@ section h2 {
 #location img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Adds a slight border-radius for styling */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
     display: block;
-    margin: 10px auto; /* Centers the image horizontally */
+    margin: 10px auto; 
+}
+#location img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:0px 4px 8px rgba(0,0, 0,0.2);
+    display:block;
+    margin: 10px auto;
 }

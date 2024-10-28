@@ -15,7 +15,7 @@ h1#article-title{
 }
 
   
-  @media all and (min-width:475px{}
+  @media all and (min-width:475px{
     nav ul{
     display:flex;
     justify-content:center;

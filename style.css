@@ -14,7 +14,14 @@ h1#article-title{
 
 }
 
+  
+  @media all and (min-width:475px{}
+    nav ul{
+    display:flex;
+    justify-content:center;
+    gap: 30px;
   }
+}
   p{
     background : #2fc7cc;
   }
@@ -47,3 +54,4 @@ h1#article-title{
   ul li a:hover{
     text-decoration:underline;
   }
+

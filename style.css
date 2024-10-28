@@ -21,12 +21,17 @@ h1#article-title{
   figure { border : 1px solid blue;
   }
   figure img{
-    width : 50%;
+    max-width :100%;
     height: auto;
+    margin-bottom: 15%;
   }
   p img{
     float : left;
     max-width : 60%;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
   }
   a{
     font-weight:bold;

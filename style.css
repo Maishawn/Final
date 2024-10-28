@@ -23,7 +23,7 @@ h1#article-title{
   figure img{
     max-width :100%;
     height: auto;
-    margin-bottom: 15%;
+    margin-bottom: 15px;
   }
   p img{
     float : left;
@@ -32,6 +32,7 @@ h1#article-title{
   }
   img{
     max-width: 100%;
+    height:auto;
     }
   a{
     font-weight:bold;

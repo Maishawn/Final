@@ -27,11 +27,13 @@ h1#article-title{
   }
   figure { border : 1px solid blue;
   }
+  @media all and (min-width:550px){
   figure img{
     max-width :100%;
     height: auto;
     margin-bottom: 15px;
   }
+}
   p img{
     float :middle;
     max-width : 100%;

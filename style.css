@@ -1,63 +1,64 @@
-h1{
-    color :#131f9a ;
-    font-family: Arial;
-  }
-  h1#site-title{
-    font-size:54px;
-    letter-spacing:-3px;
-    margin-top:0;
-    margin-bottom: .125em;
-    text-align:center;
-}
-h1#article-title{
-  font-size:48px;
-
+h1 {
+  color: #131f9a;
+  font-family: Arial;
 }
 
-  
-  @media all and (min-width:475px){
-    nav ul{
-    display:flex;
-    justify-content:center;
-    gap: 30px;
+h1#site-title {
+  font-size: 54px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: 0.125em;
+  text-align: center;
+}
+
+h1#article-title {
+  font-size: 48px;
+}
+
+p {
+  background-color: #2fc7cc;
+}
+
+figure {
+  border: 1px solid blue;
+}
+
+@media all and (min-width: 475px) {
+  nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
   }
 }
-  p{
-    background : #2fc7cc;
-  }
-  figure { border : 1px solid blue;
-  }
-  @media all and (min-width:550px){
-  figure img{
-    max-width :100%;
-    height: auto;
-    margin-bottom: 15px;
+
+@media all and (min-width: 550px) {
+  figure img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
   }
 }
-  p img{
-    float :middle;
-    max-width : 100%;
-    height:auto;
-  }
-  
-  img{
-    max-width: 100%;
-    height:auto;
-    }
-  a{
-    font-weight:bold;
-    color:purple;
-  }
 
-  ul li a {
-    text-decoration: none;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  ul li a:hover{
-    text-decoration:underline;
-  }
+a {
+  font-weight: bold;
+  color: purple;
+}
 
-  #message.dismissed{
-    opacity: 0;
-    height: 0;
-  }
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}

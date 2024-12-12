@@ -5,7 +5,7 @@
 <meta name=""viewport" content="width=device-width",intial-scale=1.0">
 <meta name="description" content="Explore and learn about the anime convention experience">
 <title>Anime Explorer </title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Fstyle.css">
 </head>
 <body>
     <header>

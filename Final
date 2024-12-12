@@ -35,6 +35,21 @@
     <ul>
         <li><strong> Anime Expo</strong> - Los Angeles,CA - July 4 - 7,2024</li>
         <li><strong>Sakura-Con</strong> - Seattle, WA - March 29-31, 2024</li>
+        <li><strong>Otakon</strong> - Washington, DC - August 2-4, 2024</li>
     </ul>
  </section>
+ <section id="about">
+    <h2>About Anime Conventions</h2>
+    <p>Anime conventions are events where fans of Japanese animation, manga, and pop culture come together to celebrate. These gatherings often feature cosplay, artist alleys, panels, and screenings of popular anime titles.</p>
+</section>
 </main>
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Have suggestions or questions? Feel free to reach out!</p>
+    <ul>
+        <li>Email: <a href="mailto:info@animeexplorer.com">info@animeexplorer.com</a></li>
+        <li>External Link: <a href="https://www.anime-expo.org" target="_blank">Visit Anime Expo</a></li>
+    </ul>
+</footer>
+</body>
+</html>
